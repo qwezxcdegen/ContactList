@@ -16,6 +16,8 @@
 		07947A3D29EDD68800636135 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07947A3C29EDD68800636135 /* Person.swift */; };
 		07947A4229EDD70F00636135 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07947A4129EDD70F00636135 /* DataStore.swift */; };
 		07947A4429EDDD7800636135 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07947A4329EDDD7800636135 /* PersonDetailsViewController.swift */; };
+		07947A4629EDE25B00636135 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07947A4529EDE25B00636135 /* TabBarViewController.swift */; };
+		07947A4829EDE4EF00636135 /* PersonListAdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07947A4729EDE4EF00636135 /* PersonListAdvancedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		07947A3C29EDD68800636135 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		07947A4129EDD70F00636135 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		07947A4329EDDD7800636135 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		07947A4529EDE25B00636135 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		07947A4729EDE4EF00636135 /* PersonListAdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListAdvancedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				07947A3929EDD4CB00636135 /* PersonListViewController.swift */,
 				07947A4329EDDD7800636135 /* PersonDetailsViewController.swift */,
+				07947A4529EDE25B00636135 /* TabBarViewController.swift */,
+				07947A4729EDE4EF00636135 /* PersonListAdvancedViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,9 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07947A3A29EDD4CB00636135 /* PersonListViewController.swift in Sources */,
+				07947A4829EDE4EF00636135 /* PersonListAdvancedViewController.swift in Sources */,
 				07947A2229EDD22C00636135 /* AppDelegate.swift in Sources */,
 				07947A4429EDDD7800636135 /* PersonDetailsViewController.swift in Sources */,
 				07947A3D29EDD68800636135 /* Person.swift in Sources */,
+				07947A4629EDE25B00636135 /* TabBarViewController.swift in Sources */,
 				07947A4229EDD70F00636135 /* DataStore.swift in Sources */,
 				07947A2429EDD22C00636135 /* SceneDelegate.swift in Sources */,
 			);

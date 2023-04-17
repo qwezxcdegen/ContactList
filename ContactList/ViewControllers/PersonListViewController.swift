@@ -7,10 +7,10 @@
 
 import UIKit
 
-class PersonListViewController: UITableViewController {
+final class PersonListViewController: UITableViewController {
     
-    // MARK: - Private Properties
-    private var persons = DataStore.getPersons()
+    // MARK: - Public Properties
+    var persons: [Person]!
     
     // MARK: - Lifecycle
     override func viewDidLoad() {

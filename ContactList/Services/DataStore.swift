@@ -48,7 +48,7 @@ final class DataStore {
         "pppp@gmail.com"
     ]
     
-    class func getPersons() -> [Person] {
+    static func getPersons() -> [Person] {
         names.shuffle()
         surnames.shuffle()
         phones.shuffle()
