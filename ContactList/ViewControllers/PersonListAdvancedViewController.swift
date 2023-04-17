@@ -11,11 +11,6 @@ final class PersonListAdvancedViewController: UITableViewController {
     
     // MARK: - Public Properties
     var persons: [Person]!
-    
-    // MARK: - Lifecycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
 
 // MARK: - Table view data source
