@@ -11,11 +11,6 @@ final class PersonListAdvancedViewController: UITableViewController {
     
     // MARK: - Public Properties
     var persons: [Person]!
-    
-    // MARK: - Lifecycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
 
 // MARK: - Table view data source
@@ -47,5 +42,12 @@ extension PersonListAdvancedViewController {
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         persons[section].fullName
+    }
+}
+
+// MARK: - UITableViewDelegate
+extension PersonListAdvancedViewController {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
