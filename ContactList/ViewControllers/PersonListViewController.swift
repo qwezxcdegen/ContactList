@@ -18,8 +18,7 @@ final class PersonListViewController: UITableViewController {
             return
         }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        let person = persons[indexPath.row]
-        detailsVC.person = person
+        detailsVC.person = persons[indexPath.row]
     }
 }
 
